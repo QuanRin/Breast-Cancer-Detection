@@ -3,6 +3,7 @@ import numpy as np
 from PIL import Image
 from weights import download_weights
 from model import download_model
+from skimage import io, filters
 import cv2
 import gradio as gr
 
